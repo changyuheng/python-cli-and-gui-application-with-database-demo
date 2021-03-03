@@ -102,14 +102,16 @@ def parse_args() -> argparse.Namespace:
     return args
 
 
-def main():
+def main() -> int:
     try:
         args: argparse.Namespace = parse_args()
     except NotImplementedError:
-        sys.exit(2 if os.name == 'nt' else os.EX_USAGE)
+        return 2 if os.name == 'nt' else os.EX_USAGE
 
     try:
         args.func(args)
     except Exception as e:
         print(e, file=sys.stderr)
-        sys.exit(1 if os.name == 'nt' else os.EX_SOFTWARE)
+        return 1 if os.name == 'nt' else os.EX_SOFTWARE
+
+    return 0 if os.name == 'nt' else os.EX_OK
