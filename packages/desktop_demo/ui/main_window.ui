@@ -818,6 +818,39 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>line_edit_record_no</tabstop>
+  <tabstop>line_edit_lab_no</tabstop>
+  <tabstop>line_edit_mcv</tabstop>
+  <tabstop>line_edit_wbc</tabstop>
+  <tabstop>line_edit_hb</tabstop>
+  <tabstop>line_edit_hct</tabstop>
+  <tabstop>line_edit_mch</tabstop>
+  <tabstop>line_edit_mchc</tabstop>
+  <tabstop>line_edit_rdw_cv</tabstop>
+  <tabstop>line_edit_plt</tabstop>
+  <tabstop>line_edit_rbc</tabstop>
+  <tabstop>line_edit_promyelocyte</tabstop>
+  <tabstop>line_edit_abn_lym</tabstop>
+  <tabstop>line_edit_plasma_cell</tabstop>
+  <tabstop>line_edit_promonocyte</tabstop>
+  <tabstop>line_edit_blast</tabstop>
+  <tabstop>line_edit_abn_momo</tabstop>
+  <tabstop>line_edit_myeloctye</tabstop>
+  <tabstop>line_edit_meta_myelocyte</tabstop>
+  <tabstop>line_edit_band</tabstop>
+  <tabstop>line_edit_segment</tabstop>
+  <tabstop>line_edit_eosinophil</tabstop>
+  <tabstop>line_edit_basophil</tabstop>
+  <tabstop>line_edit_monocyte</tabstop>
+  <tabstop>line_edit_nrbc</tabstop>
+  <tabstop>line_edit_a_lym</tabstop>
+  <tabstop>line_edit_megakaryocyte</tabstop>
+  <tabstop>push_button_save</tabstop>
+  <tabstop>push_button_remove</tabstop>
+  <tabstop>list_widget_datum_list</tabstop>
+  <tabstop>push_button_add</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
