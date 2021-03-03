@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['.venv\\Scripts\\cli-demo'],
-             pathex=['C:\\Users\\Henry\\workspace\\python-gui-application-with-database-demo'],
+a = Analysis([os.path.join('.venv', ('Scripts' if os.name == 'nt' else 'bin'), 'cli-demo')],
+             pathex=[os.path.abspath(SPECPATH)],
              binaries=[],
              datas=[],
              hiddenimports=[],

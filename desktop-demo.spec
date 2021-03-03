@@ -6,7 +6,7 @@ import os
 block_cipher = None
 
 
-a = Analysis([os.path.join('.venv', 'Scripts', 'desktop-demo')],
+a = Analysis([os.path.join('.venv', ('Scripts' if os.name == 'nt' else 'bin'), 'desktop-demo')],
              pathex=[os.path.abspath(SPECPATH)],
              binaries=[],
              datas=[
