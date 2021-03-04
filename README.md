@@ -30,7 +30,7 @@ desktop-demo
 
 ### Environment
 
-1. [Python 3.9+](https://www.python.org/downloads/release/python-391/)
+1. [Python 3.9+](https://www.python.org/)
 2. [Poetry](https://python-poetry.org/)
 3. [PyCharm](https://www.jetbrains.com/pycharm/)
 4. [Git](https://git-scm.com/)
