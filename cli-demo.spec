@@ -1,7 +1,9 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-block_cipher = None
+import os
 
+
+block_cipher = None
 
 a = Analysis([os.path.join('.venv', ('Scripts' if os.name == 'nt' else 'bin'), 'cli-demo')],
              pathex=[os.path.abspath(SPECPATH)],
