@@ -1,6 +1,6 @@
 # Python CLI and GUI Application with Database Demo
 
-[![Python GUI Application with Database Demo](http://img.youtube.com/vi/Fae89t8lfgc/0.jpg)](http://www.youtube.com/watch?v=Fae89t8lfgc "Python GUI Application with Database Demo")
+![Python GUI Application with Database Demo](docs/screencast.gif)
 
 **This is only for demo and reference.** Only inputs on the left most column work now!
 
